@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  BookFlights
 //
 //  Created by Khả Như on 5/11/22.
@@ -7,17 +7,14 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-    }
 
-    @IBAction func exitTapped(_ sender: Any) {
-        exit(0)
+        // Do any additional setup after loading the view.
     }
-    
 }
-

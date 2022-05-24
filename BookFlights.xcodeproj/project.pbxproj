@@ -43,6 +43,8 @@
 		342188BE28308AB80088E907 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342188BD28308AB80088E907 /* StartViewController.swift */; };
 		342188C02830B3950088E907 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342188BF2830B3950088E907 /* NewsViewController.swift */; };
 		342188C22830BE1E0088E907 /* FlightsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342188C12830BE1E0088E907 /* FlightsTableViewCell.swift */; };
+		343584C3283ADAF8003F9630 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343584C2283ADAF8003F9630 /* TabBarViewController.swift */; };
+		343584C5283ADB9D003F9630 /* FlightsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343584C4283ADB9D003F9630 /* FlightsTableViewController.swift */; };
 		34C5CDF6282BF7CA0024DF58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C5CDF5282BF7CA0024DF58 /* AppDelegate.swift */; };
 		34C5CDF8282BF7CA0024DF58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C5CDF7282BF7CA0024DF58 /* ViewController.swift */; };
 		34C5CDFB282BF7CA0024DF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C5CDF9282BF7CA0024DF58 /* Main.storyboard */; };
@@ -82,6 +84,8 @@
 		342188BD28308AB80088E907 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		342188BF2830B3950088E907 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		342188C12830BE1E0088E907 /* FlightsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsTableViewCell.swift; sourceTree = "<group>"; };
+		343584C2283ADAF8003F9630 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		343584C4283ADB9D003F9630 /* FlightsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsTableViewController.swift; sourceTree = "<group>"; };
 		34C5CDF2282BF7CA0024DF58 /* BookFlights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookFlights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C5CDF5282BF7CA0024DF58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34C5CDF7282BF7CA0024DF58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -243,6 +247,8 @@
 				342188BD28308AB80088E907 /* StartViewController.swift */,
 				342188BF2830B3950088E907 /* NewsViewController.swift */,
 				342188C12830BE1E0088E907 /* FlightsTableViewCell.swift */,
+				343584C2283ADAF8003F9630 /* TabBarViewController.swift */,
+				343584C4283ADB9D003F9630 /* FlightsTableViewController.swift */,
 			);
 			name = Controll;
 			sourceTree = "<group>";
@@ -415,12 +421,14 @@
 				34D64728282C203100BB0B2B /* HomeViewController.swift in Sources */,
 				34D64724282C1F9000BB0B2B /* LoginViewController.swift in Sources */,
 				342188C02830B3950088E907 /* NewsViewController.swift in Sources */,
+				343584C3283ADAF8003F9630 /* TabBarViewController.swift in Sources */,
 				34C5CDF8282BF7CA0024DF58 /* ViewController.swift in Sources */,
 				342188B4283002040088E907 /* Constants.swift in Sources */,
 				342188C22830BE1E0088E907 /* FlightsTableViewCell.swift in Sources */,
 				342188BE28308AB80088E907 /* StartViewController.swift in Sources */,
 				34D64726282C1FC000BB0B2B /* SignUpViewController.swift in Sources */,
 				342188BC283042DD0088E907 /* AccountViewController.swift in Sources */,
+				343584C5283ADB9D003F9630 /* FlightsTableViewController.swift in Sources */,
 				342188BA28303ECC0088E907 /* ProfileViewController.swift in Sources */,
 				34C5CDF6282BF7CA0024DF58 /* AppDelegate.swift in Sources */,
 				342188B8283016D20088E907 /* SceneDelegate.swift in Sources */,

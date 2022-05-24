@@ -16,5 +16,4 @@ class Utilities {
         let passwordTest = NSPredicate(format: "SELF MATCHES %@", "^(?=.*[a-z])(?=.*[$@$#!%*?&])[A-Za-z\\d$@$#!%*?&]{6,}")
         return passwordTest.evaluate(with: password)
     }
-    
 }

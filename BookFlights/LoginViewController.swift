@@ -15,7 +15,6 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var passwordTextField: UITextField!
     
-    
     @IBOutlet weak var loginButton: UIButton!
     
     @IBOutlet weak var errorLabel: UILabel!
@@ -53,7 +52,7 @@ class LoginViewController: UIViewController {
     }
     func transitionToHome() {
         
-        let homeVC = storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.homeView) as? HomeViewController
+        let homeVC = storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.homeView) as? TabBarViewController
         
         view.window?.rootViewController = homeVC
         view.window?.makeKeyAndVisible()

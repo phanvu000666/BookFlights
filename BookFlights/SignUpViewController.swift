@@ -50,7 +50,6 @@ class SignUpViewController: UIViewController {
         
         // Check if the password is secure
         let cleanedPassword = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-        
         if Utilities.isPasswordValid(cleanedPassword) == false {
             // Password isn't secure enough
             return "Please make sure your password is at least 6 characters, contains a special character and a number."
@@ -96,6 +95,8 @@ class SignUpViewController: UIViewController {
                     ref = db.collection("users").addDocument(data: [
                         "first_name":firstName,
                         "last_name":lastName,
+                        "email":authResult!.user.email,
+                        "sdt": authResult!.user.phoneNumber,
                         "uid": authResult!.user.uid
                     ]) { err in
                         if let err = err {
